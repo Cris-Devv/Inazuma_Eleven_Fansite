@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #ffff00;
+    height: 50px;
+}
+
+.logo{
+    height: 1%;
+    width: 1%;
+}
+
+body{
+    background-color: #a5a2a2;
+}
+
+.principal{
+    display: flex;
+}
+
+.text{
+    padding: 2%;
+}
+
+img{
+    width: 50%;
+    margin-top: 35%;
+    margin-left: 10%;
+}
+
+h6{
+    margin-left: 10%;
+}
