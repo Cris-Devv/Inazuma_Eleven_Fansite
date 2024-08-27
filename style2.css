@@ -4,17 +4,7 @@
 
 }
 
-.navbar{
-    background: linear-gradient(to bottom, #ffff00, #ffff00, #ffb300 );
-    height: 50px;
-    display: flex;
-    align-items: center;
-    gap: 300px;
-}
 
-a{
-    text-decoration: none;
-}
 
 .principal{
     display: flex;
@@ -38,8 +28,8 @@ h6{
     margin-left: 10%;
 }
 
-#logo{
+.logo{
+    margin-left: 5px;
     border-radius: 200px;    
     width: 32px;
-    margin-left: 15px;
 }
