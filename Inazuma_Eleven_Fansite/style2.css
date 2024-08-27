@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.principal{
+    display: flex;
+}
+
+body{
+    background-color: #a5a2a2;
+}
+
+.text{
+    padding: 2%;
+}
+
+.image{
+    width: 50%;
+    margin-top: 35%;
+    margin-left: 10%;
+}
+
+h6{
+    margin-left: 10%;
+}
+
+.logo{
+    margin-left: 5px;
+    border-radius: 200px;    
+    width: 32px;
+}
