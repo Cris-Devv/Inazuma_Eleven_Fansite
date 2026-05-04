@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="shortcut icon" href="../assets/IE_logo.webp">
 </head>
+
 <body>
+    <header>
+        <nav class="navbar">
+            <img id="logo" src="../assets/IE.jpg" alt="logo">
+            <a href="../index.html">Página Inicial</a>
+            <a href="listas.html">Top 10 Personagens</a>
+            <a href="tabelas.html">Tabela de personagens</a>
+            <a href="formulario.html">Cadastre-se para fazer parte da comunidade!</a>
+        </nav>
+    </header>
+    <br>
     <h1>Formulário de Cadastro</h1>
+    <br>
     <h2>Início de Formulário</h2>
+    <br>
     <form action="" method="post">
-        <p>Informe seu nome completo: </p> <br>
+        <p>Informe seu nome completo: </p>
         <input type="text" name="nome" id="nome">
-        <p>Selecione o tipo de combustível: </p> <br>
-        <input type="radio" name="gas" id="gas" value="combus">Gasolina<br>
-        <input type="radio" name="alc" id="alc" value="combus">Alcool<br>
-        <input type="radio" name="gnv" id="gnv" value="combus">GNV<br>
-        <input type="radio" name="flex" id="flex" value="combus">Flex<br>
+        <br>
+        <br>
+        <p>Selecione o tipo de técnica especial: </p>
+        <input type="radio" name="atk" id="atk" value="combus">Ataque<br>
+        <input type="radio" name="mid" id="mid" value="combus">Meio-Campo<br>
+        <input type="radio" name="def" id="def" value="combus">Defesa<br>
+        <input type="radio" name="gol" id="gol" value="combus">Goleiro<br>
+
+        <br>
+        <p>Selecione o tipo de técnica especial de novo: </p>
+        <input type="checkbox" name="atk" id="atk" value="combus">Ataque<br>
+        <input type="checkbox" name="mid" id="mid" value="combus">Meio-Campo<br>
+        <input type="checkbox" name="def" id="def" value="combus">Defesa<br>
+        <input type="checkbox" name="gol" id="gol" value="combus">Goleiro<br>
     </form>
 </body>
+
 </html>

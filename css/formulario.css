@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(to bottom, #ffff00, #ffff00, #ffb300 );
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #a5a2a2;
+}
+
+#logo {
+    border-radius: 200px;    
+    width: 32px;
+    margin-left: 15px;
+}
