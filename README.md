@@ -1,4 +1,2 @@
 # Inazuma_Eleven_Fansite
- Site pra estudar HTML
-
- HTML com Guanabara amém
+Site para estudar HTML
